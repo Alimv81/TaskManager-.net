@@ -1,0 +1,37 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #0b081d;
+  color: #d4d7d0;
+}
+td{
+  color: #d4d7d0;
+}
+th{
+  color: #d4d7d0;
+}
+.customize{
+  background-color: #297852;
+}
+.customize_input, .customize_input:focus{
+  background-color: black;
+  color: white;
+}
